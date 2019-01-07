@@ -24,7 +24,7 @@ def configure_domain(domain):
     domain.trigger_restart()
 ```
 
-Typically a domain backend charm should validate that that it
+Typically a domain backend charm should validate that it
 has sufficient and good configuration for the domain backend,
 write its configuration to
 `/etc/keystone/domains/keystone.<domain-name>.conf` and then
